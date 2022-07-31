@@ -1,0 +1,62 @@
+.svgFile {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+.pathStyle {
+    color: #fff;
+}
+
+.colorStyle {
+    color: #61ce70 !important;
+}
+.sliderwraptitle {
+    font-family: "Montserrat_Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.slider-container .dayslider {
+    color: #3f51b5;
+    width: 100%;
+    cursor: pointer;
+    height: 2px;
+    display: inline-block;
+    padding: 13px 0;
+    position: relative;
+    box-sizing: content-box;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.slider-container {
+    margin-top: 30px;
+}
+.slider-container .css-14pt78w-MuiSlider-rail {
+    background: #232323;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    border: 1px solid #61ce70;
+    height: 10px !important;
+}
+.slider-container .css-1gv0vcd-MuiSlider-track {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(90deg, #a6daad, #53f369 90%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    height: 10px !important;
+}
+.slider-container .css-eg0mwd-MuiSlider-thumb {
+    width: 20px;
+    height: 20px;
+    background: #232323;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    border: 2px solid #45f85d;
+}
